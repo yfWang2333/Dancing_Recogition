@@ -6,13 +6,13 @@ import torch.nn.functional as F
 from ConvLSTM import *
 
 """
-original: N = 5, C = 3, D = 32, W = 112, H = 112
+original: N = 16, C = 3, D = 32, W = 112, H = 112
 5-dimensional tensor [N,C,D,W,H] for conv3d, bn3d, pool3d
 4-dimensional tensor [N,C,W,H] for conv2d, bn2d, pool2d
 
 """
 
-batch_size = 3
+batch_size = 16
 channels = 3
 depth = 32
 W = 112
