@@ -5,3 +5,4 @@ We use the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) as the whole data
 ## Reference
 - The architecture of network is refered in [Learning Spatiotemporal Features using 3DCNN and Convlutional LSTM for Gensture Recognition](https://ieeexplore.ieee.org/document/8265580).
 - The part to convert video to frame sequences (videoclips) and to count the number of frames of each video is forked in `video_jpg_ucf101_hmdb51.py` and `n_frames_ucf101_hmdb51.py` from [two-stream-action-recognition](https://github.com/jeffreyhuang1/two-stream-action-recognition/blob/master/)
+
